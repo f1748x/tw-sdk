@@ -6,8 +6,9 @@ package comm
 type ComInterface interface {
 	// 鉴权
 	Authentication() string
+
 	// 获取平台分类
-	// GetPclas()
+	GetPclas() *Playse
 	// 获取小说平台列表
 	// GetPlaer() []map[string]interface{}
 	// 获取账单
