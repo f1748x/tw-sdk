@@ -1,3 +1,4 @@
 main.go
-github.com/
 Makefile
+.gitignore
+read.md
