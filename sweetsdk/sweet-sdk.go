@@ -11,7 +11,7 @@ import (
 // var ComManager = &Com{}
 // 获取渠道平台
 
-func NewSweetClient(cm *comm.Com) comm.ComInterface {
+func NewClient(cm *comm.Com) comm.ComInterface {
 	// 1.检查appid
 	fmt.Println("test:", cm.AppId)
 	return cm
